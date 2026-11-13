@@ -4,6 +4,10 @@ Freelancers lose hours turning client chats into invoices and chasing late payme
 
 Built for the *Build What's Next with PayPal and AI* hackathon. It runs against the **PayPal sandbox** (test money only).
 
+**Live demo:** <https://freelance-cfo.onrender.com> (the free instance sleeps when idle, so the first load can take about a minute; the sign-in password is shared privately with reviewers).
+
+![Freelance CFO](https://img.shields.io/badge/PayPal-Invoicing%20API-blue) ![Tests](https://img.shields.io/badge/tests-53%20passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-green)
+
 ## The agent
 
 You talk to it in plain language. It decides which tools to call, and shows you exactly what it did.
