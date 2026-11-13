@@ -1,0 +1,21 @@
+{
+  "name": "paypal-invoice-agent",
+  "version": "1.1.0",
+  "description": "Freelance CFO: an AI agent that runs invoicing and collections on PayPal. It prepares every action; a human approves it.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "node --watch --env-file-if-exists=.env src/index.js",
+    "check": "node --env-file-if-exists=.env src/check.js",
+    "test": "node --test",
+    "seed": "node --env-file-if-exists=.env src/seed.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
